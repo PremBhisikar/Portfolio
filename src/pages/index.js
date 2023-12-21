@@ -33,22 +33,22 @@ export default function Home() {
               </p>
               <div className='flex items-center self-start mt-2'>
                 <Link href="/dummy.pdf" target={'_blank'}
-                className='flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg 
+                  className='flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg 
                 font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent 
                  hover:border-dark ' download={true}
-                >Resume <LinkArrow className={"w-6 ml-1"}/>
+                >Resume <LinkArrow className={"w-6 ml-1"} />
                 </Link>
                 <Link href="prembhisikar151996@gmail.com" target={'_blank'}
-                className='ml-4 text-lg font-medium capitalize text-dark underline'
+                  className='ml-4 text-lg font-medium capitalize text-dark underline'
                 >Contact</Link>
 
               </div>
             </div>
           </div>
         </Layout>
-        <HireMe/>
+        <HireMe />
         <div className='absolute right-8 bottom-8 inline-block w-24'>
-        {/* <Image src={lightbulb} alt="lightbulb" className='w-full h-auto' />s */}
+          {/* <Image src={lightbulb} alt="lightbulb" className='w-full h-auto' />s */}
         </div>
       </main>
     </>
