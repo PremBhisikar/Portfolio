@@ -40,50 +40,38 @@ const {scrollYProgress} = useScroll (
 
     return (
         <div className='my-64'>
-            <h2 className='font-bold text-8xl mb-32 w-full text-center'>
+            <h2 className='font-bold text-8xl mb-32 w-full text-center md:text-5xl md:mt-30'>
                 Experience
             </h2>
-            <div ref ={ref} className='w-[75%] mx-auto relative'>
-                <motion.div 
-                style={{scaleY:scrollYProgress}}
-                className='absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light'/>
+            <div ref={ref} className='w-[75%] mx-auto relative'>
+                <motion.div
+                    style={{ scaleY: scrollYProgress }}
+                    className='absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light' />
                 <ul className='w-full flex flex-col items-start justify-between ml-4'>
-                    <Details
-                        position="Full Stack Developer" company= "Honeycomb Creative Support"
-                        companyLink="https://www.honeycombindia.net/"
-                    time="Aug 2023-Present" address=" Bangalore"
-                    work="Designed, developed, and implemented software
-                    applications for websites based on analyzed requirements
-                    and understanding of industry technical standards.
-                    Update old code based on modern development
-                    standards, improving functionality.
-                    Participated in software field testing to verify the
-                    developed project's performance."
-                    />
-                    <Details
-                        position="Full Stack Developer" company= "Honeycomb Creative Support"
-                        companyLink="https://www.honeycombindia.net/"
-                    time="Aug 2023-Present" address=" Bangalore"
-                    work="Designed, developed, and implemented software
-                    applications for websites based on analyzed requirements
-                    and understanding of industry technical standards.
-                    Update old code based on modern development
-                    standards, improving functionality.
-                    Participated in software field testing to verify the
-                    developed project's performance."
-                    />
-                    <Details
-                        position="Full Stack Developer" company= "Honeycomb Creative Support"
-                        companyLink="https://www.honeycombindia.net/"
-                    time="Aug 2023-Present" address=" Bangalore"
-                    work="Designed, developed, and implemented software
-                    applications for websites based on analyzed requirements
-                    and understanding of industry technical standards.
-                    Update old code based on modern development
-                    standards, improving functionality.
-                    Participated in software field testing to verify the
-                    developed project's performance."
-                    />
+                <Details
+        position="Full Stack Developer" company= "Honeycomb Creative Support"
+        companyLink="https://www.honeycombindia.net/"
+    time="Aug 2023-Present" address=" Bangalore"
+    work="Designed, developed, and implemented software
+    applications for websites based on analyzed requirements
+   "
+    />
+    <Details
+        position="Full Stack Developer" company= "Honeycomb Creative Support"
+        companyLink="https://www.honeycombindia.net/"
+    time="Aug 2023-Present" address=" Bangalore"
+    work="Designed, developed, and implemented software
+    applications for websites based on analyzed requirements
+  "
+    />
+    <Details
+        position="Full Stack Developer" company= "Honeycomb Creative Support"
+        companyLink="https://www.honeycombindia.net/"
+    time="Aug 2023-Present" address=" Bangalore"
+    work="Designed, developed, and implemented software
+    applications for websites based on analyzed requirements
+    "
+    />
                 </ul>
 
             </div>

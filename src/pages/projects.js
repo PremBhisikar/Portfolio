@@ -87,7 +87,7 @@ const projects = () => {
     return (
         <>
             <Head>
-                <title>NextJs | Projects Page</title>
+                <title>Projects Page</title>
                 <meta name='description' content=" any description" />
             </Head>
             <main className='w-full mb-16 flex flex-col items-center justify-center dark:text-light'>
